@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thmeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>newProductForm</title>
+        <link rel ="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <form th:action="@{/add}" method="POST" th:object="${product}" >
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Product Name" th:field="*{name}">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description"  placeholder="Product Description" th:field="*{description}" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" class="form-control" id="price" name="price" placeholder="Product Price" th:field="*{price}" min="1" max="999999999">
+            </div>
+
+            <div class="form-group">
+                <label for="tags">Tags</label>
+                <textarea class="form-control" id="tags" name="tags"  placeholder="Product Tags" th:field="*{tags}" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">ADD</button>
+        </form>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
