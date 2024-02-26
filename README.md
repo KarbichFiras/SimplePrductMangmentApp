@@ -18,3 +18,6 @@ Edit an existing product interface :
 
 Application Demo :
 https://github.com/KarbichFiras/SimplePrductMangmentApp/assets/80693397/de4c8d40-03ff-4594-a320-cf8c5d1a6972
+
+Data Base :
+[davinci_loco_products.txt](https://github.com/KarbichFiras/SimplePrductMangmentApp/files/14405585/davinci_loco_products.txt)
