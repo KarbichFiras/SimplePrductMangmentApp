@@ -1,3 +1,5 @@
+
+https://github.com/KarbichFiras/SimplePrductMangmentApp/assets/80693397/285bfa3d-d185-48ed-9a72-3a8b3bdcc4f6
 Simple and basic spring MVC and thymeleaf application for basic product managment (CRUD).
 Th application offers 3 user interfaces.
 
@@ -13,3 +15,6 @@ Create a new product inetrface :
 
 Edit an existing product interface :
 ![edit product](https://github.com/KarbichFiras/SimplePrductMangmentApp/assets/80693397/f08c7aad-b318-4d40-8624-cbe134301ef3)
+
+application Demo :
+Uploading 2024-02-26_13h52_41.mp4…
