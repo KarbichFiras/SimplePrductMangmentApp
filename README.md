@@ -2,6 +2,7 @@ Simple and basic spring MVC and thymeleaf application for basic product managmen
 Th application offers 3 user interfaces.
 
 Use Case Diagram :
+
 ![use case diagram](https://github.com/KarbichFiras/SimplePrductMangmentApp/assets/80693397/d48b4611-42df-4993-b9ce-ba3644f3caf7)
 
 Consult products list interface :
